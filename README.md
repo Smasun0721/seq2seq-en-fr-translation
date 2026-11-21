@@ -57,7 +57,7 @@ Seq2Seq（Sequence to Sequence）是神经机器翻译的经典结构：编码�
 
 ![英法句长分布](reports/sentence_length_distribution.png)
 
-63,594 对句子的长度主要集中在 4—12 个 token，短句占多数，适合使用固定最大长度 10 的训练设置。
+63,594 对句子的长度主要集中在 4—9 个 token，短句占多数，最大长度为 9，因此训练时使用最大长度 10 的设置。
 
 ## 模型结构
 
